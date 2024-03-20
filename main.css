@@ -1,0 +1,255 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D1C3B7;
+    color: black;
+}
+html{
+    font-family: "Port Lligat Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+nav img{
+    height: 4rem;
+    mix-blend-mode: multiply;
+}
+nav{
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.logo{
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    background-color:#F1F1F1;
+}
+.home{
+    max-width: 1120px;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+
+    padding: 0rem 2rem;
+    margin: auto;
+    overflow: clip;
+    
+}
+
+.home-conteudo{
+    display: flex;  
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destaque{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #DDC1BD;
+}
+
+.destaque-cor{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:#836853;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+hr{
+    border-color: #836853;
+    border-style:double
+}
+
+.social-midia img{
+    height: 2rem;
+}
+
+.social-midia{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.home-subtitulo,
+.card-title,
+.card2-title{
+    font-size: 1.5rem;
+}
+
+.home-imagens{
+    max-width: 50%;
+    column-count: 4;
+    column-gap: 1rem;
+}
+
+.home-imagens > figure > img{
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+
+.step, 
+.donation{
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;  
+    padding: 2rem 2rem;
+    margin: auto;
+}
+
+.step-header,
+.donation-header{
+    display: flex;  
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.step-title,
+.donation-title{
+    font-size: 2rem;
+}
+
+.step-subtitle,
+.card-paragraph,
+.donation-subtitle,
+.card2-paragraph{
+    font-size: 1rem;
+}
+
+.step-card-container,
+.donation-card2-container{
+    padding: 0rem 1.5rem;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.step-card, 
+.donation-card2{
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 20rem;
+    margin-top: 2rem;
+}
+
+.step-card{
+    background-color: #836853;
+}
+
+.step-card-title,
+.donation-card2-title{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* criar uma outra seção antes do footer */
+
+.clique-aqui{
+    color: #DDC1BD;
+}
+.clique-aqui:hover{
+    text-decoration: underline;
+    color: #F1F1F1;
+}
+
+.donation-container{
+    background-color: #DDC1BD;
+}
+.donation-card2{
+    background-color: #8d6c7e;
+}
+
+.footer-color{
+    background-color:#836853
+}
+
+
+footer{
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 2rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.contact img{
+    height: 2rem;
+    mix-blend-mode: multiply;
+    
+}
+.contato-gato-amigo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
