@@ -145,7 +145,8 @@ hr{
 }
 
 .step, 
-.donation{
+.donation,
+.volunteer{
     display: flex;
     flex-direction: column;
     max-width: 1120px;  
@@ -154,21 +155,24 @@ hr{
 }
 
 .step-header,
-.donation-header{
+.donation-header,
+.volunteer-header{
     display: flex;  
     flex-direction: column;
     gap: 0.5rem;
 }
 
 .step-title,
-.donation-title{
+.donation-title
+.volunteer-title{
     font-size: 2rem;
 }
 
 .step-subtitle,
 .card-paragraph,
 .donation-subtitle,
-.card2-paragraph{
+.card2-paragraph,
+.volunteer-subtitle{
     font-size: 1rem;
 }
 
@@ -252,4 +256,56 @@ footer{
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
+}
+
+.volunteer-container{
+    background-color: #F1F1F1;
+}
+
+.volunteer-img img{
+    height: 20rem;
+    border-radius: 0.5rem;
+}
+
+.volunteer-img-form{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0rem 1.0rem 1.5rem;
+    gap: 4rem;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    gap: 1.0rem;
+    align-items: center;
+}
+
+form input,
+form textarea,
+form button{
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    display: block;
+    width: 20rem;
+}
+
+form textarea{
+    resize: none;
+    height: 8rem;
+}
+
+form button{
+    background-color: #836853;
+    color: #DDC1BD;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #8d6c7e;
+}
+
+input:focus, textarea:focus{
+    outline-color: black;
 }
