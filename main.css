@@ -272,6 +272,7 @@ footer{
     flex-direction: row;
     margin: 2rem 0rem 1.0rem 1.5rem;
     gap: 4rem;
+    flex-wrap: wrap;
 }
 
 form{
